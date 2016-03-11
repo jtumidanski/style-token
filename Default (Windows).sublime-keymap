@@ -1,15 +1,18 @@
 [
 
-{ "keys": ["super+w", "1"], "command": "token_style", "args" : {"style_index" : 0 } },
-{ "keys": ["super+w", "2"], "command": "token_style", "args" : {"style_index" : 1 } },
-{ "keys": ["super+w", "3"], "command": "token_style", "args" : {"style_index" : 2 } },
-{ "keys": ["super+w", "4"], "command": "token_style", "args" : {"style_index" : 3 } },
-{ "keys": ["super+w", "5"], "command": "token_style", "args" : {"style_index" : 4 } },
+{ "keys": ["super+h", "1"], "command": "token_style", "args" : {"style_index" : 0 } },
+{ "keys": ["super+h", "2"], "command": "token_style", "args" : {"style_index" : 1 } },
+{ "keys": ["super+h", "3"], "command": "token_style", "args" : {"style_index" : 2 } },
+{ "keys": ["super+h", "4"], "command": "token_style", "args" : {"style_index" : 3 } },
+{ "keys": ["super+h", "5"], "command": "token_style", "args" : {"style_index" : 4 } },
 
-{ "keys": ["super+w", "7"], "command": "token_style_go", "args" : {"style_index" : 1 } },
-{ "keys": ["super+w", "8"], "command": "token_style_clear", "args" : {"style_index" : 1 } },
+{ "keys": ["super+c", "1"], "command": "token_style_clear", "args" : {"style_index" : 0 } },
+{ "keys": ["super+c", "2"], "command": "token_style_clear", "args" : {"style_index" : 1 } },
+{ "keys": ["super+c", "3"], "command": "token_style_clear", "args" : {"style_index" : 2 } },
+{ "keys": ["super+c", "4"], "command": "token_style_clear", "args" : {"style_index" : 3 } },
+{ "keys": ["super+c", "5"], "command": "token_style_clear", "args" : {"style_index" : 4 } },
+{ "keys": ["super+c", "a"], "command": "token_style_clear" },
 
-{ "keys": ["super+w", "w"], "command": "token_style_clear" },
 { "keys": ["super+\\"], "command": "token_style_go" },
 { "keys": ["super+shift+\\"], "command": "token_style_go_back" }
 

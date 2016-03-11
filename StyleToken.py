@@ -64,7 +64,6 @@ def color_selection(view, style_ind):
         view.add_regions(REGION_NAME + str(style_ind), currentRegions, str(get_style(style_ind)), "dot", sublime.DRAW_EMPTY)
 
 def move_selection(view, region):
-    #print 'move_selection ' + str(region.begin())
     view.sel().clear()
     view.sel().add(sublime.Region(region.begin(), region.begin()))
     view.show(region)
